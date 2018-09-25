@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk --no-cache add maven curl tar gzip bash
+RUN apk --no-cache add maven curl tar gzip bash perl git
 
 #
 # Install JDK
